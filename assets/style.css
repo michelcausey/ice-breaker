@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|PT+Sans+Narrow|Ubuntu&display=swap');
+
+
 body {
     background-image: url(./img/question\ mark.jpg);
 }
@@ -10,7 +13,7 @@ body {
     border-radius: 10%;
     margin: 30px auto;
     background-color: #FFFFFF;
-    background-image: url('https://image.flaticon.com/icons/svg/984/984619.svg');
+    background-image: url('./img/ice-hanging.png');
     background-repeat: repeat-x;
     color: #000000;
     font-family: sans-serif;
@@ -18,41 +21,42 @@ body {
   
   h1 {
     text-align: center; 
-    color: #6E9ABC;
-    text-shadow: 2px 2px 3px #000000;
+    color: #4656a1;
+    text-shadow: 2px 2px 2px #000000;
+    font-family: 'Montserrat', sans-serif;
   }
   
   #random {
     text-align: center; 
     height: 330px;
-    margin: 55px 5px 0px 5px;
-    font-size: 30px;
-    color: #6E9ABC;
-    text-shadow: 1px 2px 1px #000000;
+    margin: 55px 10px 0px 10px;
+    font-size: 28px;
+    color: #2c655c;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
   }
   
   #player {
     text-align: center;
     height: 5px;
     font-size: 25px;
-    color: #6E9ABC;
-    text-shadow: 1px 2px 1px #000000;
+    color: #2c655c;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
   }
   
-  #avatar {
-    height: 10%;
-  }
-
-
   button {
     width: 325px;
     height: 60px;
+    border-radius: 10px;
     margin-left: 25px;
     margin-bottom: 5px;
-    background-color: #6E9ABC;
+    background-color: #2c655c;
     color: #D6ECEF;
-    text-shadow: 1px 2px 2px #000000;
-    font-size: 20px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 3px 3px 6px #000000;
   }
   
   .ice {
