@@ -71,6 +71,7 @@ function nextQ() {
     var players = ['Everyone']
     var randomPlayer = Math.floor(Math.random() * (players.length));
     console.log('random player: ' + randomPlayer)
+    
     var randomQuestion = Math.floor(Math.random() * (questions.length));
     console.log('random question: ' + randomQuestion);
 

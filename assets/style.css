@@ -1,10 +1,15 @@
+body {
+    background-image: url(./img/question\ mark.jpg);
+}
+
 .container {
     width: 375px;
-    height: 600px;
-    border: 3px solid #BEEEF9;
-    box-shadow: 4px 6px 4px #000000;
+    height: 625px;
+    border: 3px solid #000000;
+    box-shadow: 3px 3px 6px #6E9ABC;
     border-radius: 10%;
     margin: 30px auto;
+    background-color: #FFFFFF;
     background-image: url('https://image.flaticon.com/icons/svg/984/984619.svg');
     background-repeat: repeat-x;
     color: #000000;
@@ -14,7 +19,7 @@
   h1 {
     text-align: center; 
     color: #6E9ABC;
-    text-shadow: 4px 4px 2px #FFFFFF;
+    text-shadow: 2px 2px 3px #000000;
   }
   
   #random {
@@ -37,7 +42,8 @@
   #avatar {
     height: 10%;
   }
-  
+
+
   button {
     width: 325px;
     height: 60px;
@@ -56,8 +62,8 @@
   
   #cube {
     height: 65px;
-    margin-left: 20px;
-    margin-top: 1px;
+    margin-left: 30px;
+    margin-top: 10px;
   }
   
   #pick {
