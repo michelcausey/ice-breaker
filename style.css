@@ -1,0 +1,66 @@
+.container {
+    width: 375px;
+    height: 600px;
+    border: 3px solid #BEEEF9;
+    box-shadow: 4px 6px 4px #000000;
+    border-radius: 10%;
+    margin: 30px auto;
+    background-image: url('https://image.flaticon.com/icons/svg/984/984619.svg');
+    background-repeat: repeat-x;
+    color: #000000;
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    text-align: center; 
+    color: #6E9ABC;
+    text-shadow: 4px 4px 2px #FFFFFF;
+  }
+  
+  #random {
+    text-align: center; 
+    height: 330px;
+    margin: 55px 5px 0px 5px;
+    font-size: 30px;
+    color: #6E9ABC;
+    text-shadow: 1px 2px 1px #000000;
+  }
+  
+  #player {
+    text-align: center;
+    height: 5px;
+    font-size: 25px;
+    color: #6E9ABC;
+    text-shadow: 1px 2px 1px #000000;
+  }
+  
+  #avatar {
+    height: 10%;
+  }
+  
+  button {
+    width: 325px;
+    height: 60px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+    background-color: #6E9ABC;
+    color: #D6ECEF;
+    text-shadow: 1px 2px 2px #000000;
+    font-size: 20px;
+  }
+  
+  .ice {
+    height: 75px;
+    border-radius: 30px;
+  }
+  
+  #cube {
+    height: 65px;
+    margin-left: 20px;
+    margin-top: 1px;
+  }
+  
+  #pick {
+    width: 60%;
+    
+  }
