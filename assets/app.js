@@ -63,7 +63,10 @@ var questions = [
     "Would you go with aliens if they beamed down to Earth?", "Are you a good dancer?", 
     "If you could instantly become an expert in something, what would it be?", "If you could go to Mars, would you? Why or Why not?", 
     "Would you rather live in the ocean - or - on the moon?", "Would you rather lose all your money - or - all of your pictures?", 
-    "Would you rather be a superhero - or - the world's best chef?", "Isn't it crazy that you know the person who built this app?"    
+    "Would you rather be a superhero - or - the world's best chef?", "Isn't it crazy that you know the person who built this app?",
+    "Is what you’re doing now what you always wanted to do growing up?", "If you could choose your age forever, what age would you choose and why?", 
+    "What is your most used emoji?", "If you had to delete all but three apps from your smartphone, which ones would you keep?","You have to sing karaoke, what song do you pick?",
+    "If you were a wrestler what would be your entrance theme song?", "If you had a time machine, would go back in time or into the future?"
 ]
 
 function nextQ() {
@@ -71,7 +74,7 @@ function nextQ() {
     var players = ['Everyone']
     var randomPlayer = Math.floor(Math.random() * (players.length));
     console.log('random player: ' + randomPlayer)
-    
+
     var randomQuestion = Math.floor(Math.random() * (questions.length));
     console.log('random question: ' + randomQuestion);
 
